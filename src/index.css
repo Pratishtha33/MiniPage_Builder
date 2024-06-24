@@ -1,0 +1,78 @@
+.App {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.page-builder {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  border: 1px solid #ccc;
+}
+
+/* DroppableArea.css */
+
+.droppable-area {
+  
+  background-color: rgb(133, 185, 170);
+  width: 78%;
+  height: 100vh;
+  float: left; /* Align on the left side */
+}
+
+/* Sidebar.css */
+
+.sidebar {
+  
+  color: white; /* corrected text color */
+  width: 20%;
+  height: 100vh;
+  background-color: #434040;
+  float: right; /* Align on the right side */
+  padding: 10px;
+}
+
+
+
+
+
+.sidebar-item {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  height: 4%;
+  padding: 5px;
+  background-color: #ddd;
+  color: #131212;
+  cursor: move;
+}
+
+.page {
+  flex: 1;
+  position: relative;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  overflow: auto;
+}
+
+.element {
+  position: absolute;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: move;
+}
+
+.element.selected {
+  border-color: red;
+}
+
+.config-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
