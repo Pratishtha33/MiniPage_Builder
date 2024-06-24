@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Sidebar.js
+import './Sidebar.css';
 const Sidebar = () => {
   const handleDragStart = (e, type) => {
     e.dataTransfer.setData('type', type);
