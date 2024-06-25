@@ -23,8 +23,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **install dependencies: **
 
    ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Pratishtha33/MiniPage_Builder
+   cd MiniPage_Builder
  
 2. **Clone the repository:**
    ```sh
@@ -32,13 +32,6 @@ Follow these instructions to get a copy of the project up and running on your lo
    
 3. **Start the development server:**
     ```sh
-     npm run build
+     npm start
     
-## Usage:
-
-1. Drag elements from the sidebar to the droppable area.
-2. Click on an element to update or delete it.
-3. Use the form that appears to modify the element's properties.
-4. Export the configuration by clicking the "Export Configuration" button.
-
 
