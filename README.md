@@ -20,15 +20,14 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Running the Application
 
-1. **install dependencies:**
+1. **Clone the repository:**
 
-  ```sh
+   ```sh
    git clone https://github.com/Pratishtha33/MiniPage_Builder
-
-  ```sh 
    cd MiniPage_Builder
- 
-2. **Clone the repository:**
+
+   
+2. **install dependencies**
    ```sh
     npm install
    
