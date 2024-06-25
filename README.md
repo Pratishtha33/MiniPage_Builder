@@ -23,7 +23,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/Pratishtha33/MiniPage_Builder
+   git https://github.com/Pratishtha33/MiniPage_Builder.git
    cd MiniPage_Builder
 
    
